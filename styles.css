@@ -62,4 +62,68 @@ h1, h2, h3, h4, h5, h6 {
 .footer img {
   width: 70px;
   height: 70px;
+/* Typography */
+body {
+  font-family: 'Manrope';
+}
+/* Except we're using more specific rules to override the headlines */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto Slab', serif;
+}
+/* And the "logo" */
+.navbar-brand {
+  font-family: 'Roboto Slab';
+  font-size: 25px;
+}
+.navbar-brand img {
+  width: 25px;
+  height: 25px;
+}
+.navbar-light .navbar-brand {
+  color: gray;
+}
+
+/* Navbar background color */
+.navbar {
+  background-color: black;
+}
+
+/* Jumbotron background and font styles */
+.jumbotron {
+  /* Background */
+  background-attachment: fixed;
+  background-image: url(jumboback.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* Fonts */
+  /* The text-shadow helps the white text stand out better on a darker background */
+  color: white;
+  text-shadow: 1px 1px 1px black;
+}
+
+/* The background color of the "testimonials" part */
+.testimonials {
+  background-color: #e7e1e1;
+}
+
+/* The size of the testimonials images */
+.media img {
+  width: 64px;
+  height: 50px;
+}
+
+/* restaurants */
+.restaurants {
+  background-color: white;
+}
+.restaurants h1 {
+  font-family: 'Manrope';
+  color: blueviolet;
+}
+
+/* The footer */
+.footer img {
+  width: 70px;
+  height: 70px;
 }
